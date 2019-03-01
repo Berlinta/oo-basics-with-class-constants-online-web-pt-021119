@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand unless BRANDS.include?(brand)
-    # BRANDS << brand unless BRANDS.include?(brand)
+    # Shove a brand into BRANDS CONSTANT unless it already includes (.include?) the same brand
   end
 
   def cobble
